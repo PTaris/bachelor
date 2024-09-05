@@ -1,0 +1,50 @@
+
+section
+{
+    display: flex;
+    flex-direction: row; /* ou bien column pour vertical */
+    flex-wrap:wrap;
+    flex-flow: row;
+       
+}
+#bordure
+{
+    border: 3px black;
+    margin-left: 10px;
+margin-right: 10px;
+
+padding: 10px;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+#tout
+{
+margin: 50px;
+}
+
+#info
+{
+    
+margin-left: 50px;
+margin-right: 50px;
+border: 5px solid #19a1d2;
+padding: 10px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#boutons
+{
+    display: flex;
+    flex-direction: row; /* ou bien column pour vertical */
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
